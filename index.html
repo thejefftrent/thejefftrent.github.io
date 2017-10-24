@@ -22,22 +22,63 @@ Here's a train. Choo choo!
 <html>
   <head>
     <title>Welcome to thejefftrent.com</title>
-    <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="./css/tjt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
-    <header class="w3-container w3-blue">
-      <h1>Hello</h1>
-    </header>
-    <nav class="w3-container w3-red">
-      <a href="http://github.com/thejefftrent">My Github</a>
+    <nav id="nav-bar" class="w3-sidebar w3-red w3-bar-block w3-card-2 w3-animate-left" style="display:none">
+      <button id="close-nav" class="fa fa-close w3-button w3-right-align w3-right w3-xxlarge"></button>
+      <a href="https://www.thejefftrent.com" class="w3-bar-item w3-button">Home</a>
+      <a href="http://github.com/thejefftrent" class="w3-bar-item w3-button">My Github</a>
     </nav>
-    <main class="w3-container w3-green">
-      <p>Hello world!</p>
-      <p>HELLO</p>
-      <p>hi erinn</p>
-    </main>
-    <footer class="w3-container w3-yellow">
-      <span>Some content here</span>
-    </footer>
+    <div id="main">
+      <header class="w3-container w3-blue w3-center header-bar">
+        <button id="open-nav" class="fa fa-bars w3-xxlarge w3-left w3-button w3-row"></button>
+        <div class="w3-row w3-padding-64">
+          <h1>Site title</h1>
+        </div>
+      </header>
+      <main class="w3-panel w3-green w3-center">
+        <h2>Page title</h2>
+        <p>subtext</p>
+      </main>
+      <article class="w3-panel w3-orange">
+        <h3>Another thing</h3>
+        <p>wowowowowowowowo</p>
+      </article>
+      <footer class="w3-container w3-yellow">
+        <span>Some content here</span>
+      </footer>
+    </div>
+
+    <script>
+    //open navigation
+    $(function(){
+      $("#open-nav").click(function() {
+        $("#main").css("margin-left", "20%");
+        $("#nav-bar").css("width", "20%");
+        $("#nav-bar").css("display", "block");
+        $("#open-nav").css("display", "none");
+      });
+    });
+    //close navigation
+    $(function(){
+      $("#close-nav").click(function() {
+        $("#main").css("margin-left", "0%");
+        $("#nav-bar").css("display", "none");
+        $("#open-nav").css("display", "inline-block");
+      });
+    });
+    $(function(){
+      $("*").click(function() {
+        var color = "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")";
+        console.log(color);
+
+        $(this).css("background-color", color );
+      });
+    });
+    </script>
   </body>
 </html>

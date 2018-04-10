@@ -13,11 +13,13 @@ body {
 .header-bar h1 {
   font-family: 'Pacifico', cursive;
 }
-.header-bar h4
-{
+.header-bar h4 {
   font-family: 'Gamja Flower', cursive;
 }
-main>h2
-{
+main>h2 {
   font-family: 'Gamja Flower', cursive;
+}
+
+.name-placard {
+  width: 100px;
 }

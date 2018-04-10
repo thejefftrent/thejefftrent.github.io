@@ -1,0 +1,132 @@
+/*CSS stylesheet for resume*/
+
+body {
+	background-color: #EEF;
+}
+
+.container {
+	display: inline-block
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	margin-top: 5px;
+	padding: 50px;
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+	background-color: #FFE;
+}
+a:link {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: #666;
+}
+
+a:hover {
+	font-weight: normal;
+}
+
+a:active {
+	padding-top: 3px;
+}
+.head {
+	
+}
+
+.left-col {
+	float: left;
+	width: 65%;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	color: #666;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.address p b{
+	color: #333;
+}
+
+
+h1 {
+	font-family: Merriweather, Georgia, serif;
+	font-size: 56px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+h2 {
+	text-transform: uppercase;
+	color: rgb(32,121,199);
+	font-family: sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+h3{
+	text-decoration: none;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.date p {
+	text-transform: uppercase;
+	color: #666;
+	margin:0;
+	padding:0;
+	font-size: 12px;
+}
+
+.left-col ul {
+	margin-top: 5px;
+	color: #666;
+	font-size: 14px;
+}
+
+.left-col li {
+	padding-left: 5px;
+	font-family: Merriweather, Georgia, serif;
+}
+
+.right-col {
+	float:right;
+	width: 30%;
+}
+
+.right-col img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.right-col ul
+{
+	list-style-type: none;
+	font-family: Merriweather, Georgia, serif;
+	color: #666;
+	margin-top: 5px;
+	padding: 5px;
+	margin: 0;
+	font-size: 14px;
+}
+
+.right-col ul b {
+	color: #333;
+}
+
+.footer {
+	display: inline;
+	width: 900px;
+}
+
+.footer ul {
+	list-style-type: none;
+}

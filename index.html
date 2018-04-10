@@ -28,13 +28,24 @@ Here's a train. Choo choo!
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
-    <div id="menu">
-    </div>
+    <!--
+    Navigation
+    -->
+      <nav id="nav-bar" class="w3-sidebar w3-red w3-bar-block w3-card-2 w3-animate-left" style="display:none">
+        <button id="close-nav" class="fa fa-close w3-button w3-right-align w3-right w3-xxlarge"></button>
+        <a href="https://www.thejefftrent.com" class="w3-bar-item w3-button">Home</a>
+        <a href="http://github.com/thejefftrent" class="w3-bar-item w3-button">My Github</a>
+        <a href="/resume.html" class="w3-bar-item w3-button">HTML Resume</a>
+        <a href="/aboutme.html" class="w3-bar-item w3-button">About Me</a>
+        <a href="Example Project" class="w3-bar-item w3-button">Example Project</a>
+      </nav>
+
+
     <div id="main">
       <header class="w3-container w3-blue w3-center header-bar">
         <button id="open-nav" class="fa fa-bars w3-xxlarge w3-left w3-button w3-row"></button>
         <div class="w3-row w3-padding-64">
-          <h1>Site title</h1>
+          <h1>Hello!</h1>
         </div>
       </header>
       <main class="w3-panel w3-green w3-center">
@@ -51,10 +62,6 @@ Here's a train. Choo choo!
     </div>
 
     <script>
-    //load navigation
-    $(document).ready(function(){
-      $('#menu').('navbar.html');
-    });
     //open navigation
     $(function(){
       $("#open-nav").click(function() {

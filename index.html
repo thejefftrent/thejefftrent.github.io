@@ -1,5 +1,5 @@
 <!--
-This website was created by Jeff Trent, 2017. Everything I created can have that MIT license, I guess, it seems pretty cool. If there is anything I didn't make then the owners own it and license it. Obviously.
+This website was created by Jeff Trent, 2017-18. Everything I created can have that MIT license, I guess, it seems pretty cool. If there is anything I didn't make then the owners own it and license it. Obviously.
 
 Here's a train. Choo choo!
 
@@ -30,11 +30,11 @@ Here's a train. Choo choo!
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Pacifico" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-  <body>
+  <body class="w3-theme-light">
     <!--
     Navigation
     -->
-      <nav id="nav-bar" class="w3-sidebar w3-red w3-bar-block w3-card-2 w3-animate-left" style="display:none">
+      <nav id="nav-bar" class="w3-sidebar w3-theme-dark w3-bar-block w3-card-2 w3-animate-left" style="display:none">
         <button id="close-nav" class="fa fa-close w3-button w3-right-align w3-right w3-xxlarge"></button>
         <a href="https://www.thejefftrent.com" class="w3-bar-item w3-button">Home</a>
         <a href="http://github.com/thejefftrent" class="w3-bar-item w3-button">My Github</a>
@@ -43,33 +43,36 @@ Here's a train. Choo choo!
         <a href="Example Project" class="w3-bar-item w3-button">Example Project</a>
       </nav>
 
-
+      <!--
+      Page Contents
+      -->
     <div id="main">
-      <header class="w3-container w3-blue w3-center header-bar">
+      <header class="w3-container w3-theme-d4 w3-center header-bar">
         <button id="open-nav" class="fa fa-bars w3-xxlarge w3-left w3-button w3-row"></button>
         <div class="w3-row w3-padding-16">
           <h1>thejefftrent.com</h1>
           <h4>a website about Jeff Trent</h4>
         </div>
       </header>
-      <main class="w3-container w3-green w3-center w3-margin-left w3-margin-right">
-        <h2>a little bit about me</h2>
-        <div class="w3-card w3-sand">
-          <img src="./img/img_avatar3.png" alt="it's a picture of me -- but not really">
+      <main class="w3-container w3-theme-l2 w3-center">
+        <h2>A Little Bit About Me</h2>
+      </main>
+      <article class="w3-container w3-theme">
+        <h3>Another thing</h3>
+        <div class="w3-card w3-theme-l4 name-placard w3-center">
+          <img class="w3-round-large" src="./img/img_avatar3.png" alt="it's a picture of me -- but not really">
           <div class="w3-container w3-center">
             <h1>Jeff Trent</h1>
-            <p>email: me(at)thejefftrent.com</p>
+            <p class="w3-left">email: me(at)thejefftrent.com</p>
           </div>
         </div>
-      </main>
-      <article class="w3-container w3-orange">
-        <h3>Another thing</h3>
-        <p>wowowowowowowowo</p>
       </article>
-      <footer class="w3-container w3-yellow">
-        <span>Some content here</span>
+      <footer class="w3-container w3-theme-d4 w3-padding-16 w3-center">
+        <span class="random-footer-text w3-text-theme"></span>
       </footer>
     </div>
+
+
 
     <script>
     //open navigation
@@ -88,6 +91,47 @@ Here's a train. Choo choo!
         $("#nav-bar").css("display", "none");
         $("#open-nav").css("display", "inline-block");
       });
+    });
+    //random footer text
+    var footerStrings = [
+      "┬─┬ノ( º _ ºノ)",
+      "(╯°□°）╯︵ ┻━┻",
+      "(╯°□°）╯︵ ┻━┻",
+      "¯\\_(ツ)_/¯",
+      "ʕ•ᴥ•ʔ",
+      "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)",
+      "ლ(ಠ益ಠლ)",
+      "(/) (°,,°) (/)",
+      "(ʘᗩʘ')",
+      "(づ￣ ³￣)づ",
+      "(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)",
+      "(◕‿◕✿)",
+      "(ᵔᴥᵔ)",
+      "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴",
+      "(ง ͠° ͟ل͜ ͡°)ง",
+      "ヾ(⌐■_■)ノ♪",
+      "ಠ╭╮ಠ",
+      "♪~ ᕕ(ᐛ)ᕗ",
+      "◉_◉",
+      "(~˘▾˘)~",
+      "\\ (•◡•) /",
+      "You have entered secret debugging mode.",
+      "Please stand-by",
+      "Are you still there?",
+      "More content loading...",
+      "This is a test footer. Please Ignore.",
+      "﴾͡๏̯͡๏﴿ O'RLY?",
+      "Help! I'm trapped in the web!",
+      "The cake is a lie.",
+      "[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]",
+      "Jeff was here!",
+      "report torb pls",
+      "I spent way too much time on making this random",
+      "99 little bugs in the code, 99 little bugs. Take one down, patch it around, 127 little bugs in the code.",
+      "secret text"
+      ];
+    $(function(){
+      $(".random-footer-text").html(footerStrings[Math.floor(Math.random()*footerStrings.length)]);
     });
     </script>
   </body>

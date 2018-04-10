@@ -10,3 +10,10 @@ body {
 /*  width: 75%;
   margin: auto; */
 }
+.header-bar h1 {
+  font-family: 'Pacifico', cursive;
+}
+.header-bar h4
+{
+  font-family: 'Gamja Flower', cursive;
+}

@@ -1,0 +1,125 @@
+<!--
+This website was created by Jeff Trent, 2017-18. Everything I created can have that MIT license, I guess, it seems pretty cool. If there is anything I didn't make then the owners own it and license it. Obviously.
+
+Here's a train. Choo choo!
+
+                                                        \  /
+                  __                                     \/
+     _   ---===##===---_________________________--------------  _
+    [ ~~~=================###=###=###=###=###=================~~ ]
+    /  ||  | |~\  ;;;;     PKP    ;;;  ET22-689  ;;;;  /~| |  ||  \
+   /___||__| |  \ ;;;;            [_]            ;;;; /  | |__||___\
+   [\        |__| ;;;;  ;;;; ;;;; ;;; ;;;; ;;;;  ;;;; |__|        /]
+  (=|    ____[-]_______________________________________[-]____Kraq|=)
+  /  /___/|#(__)=o########o=(__)#||___|#(__)=o#########o=(__)#|\___\
+ _________-=\__/=--=\__/=--=\__/=-_____-=\__/=--=\__/=--=\__/=-______
+
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Welcome to thejefftrent.com</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="./css/w3.css">
+    <link rel="stylesheet" href="./css/tjt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Pacifico" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body class="w3-theme-light">
+    <!--
+    Navigation
+    -->
+      <nav id="nav-bar" class="w3-sidebar w3-theme-dark w3-bar-block w3-card-2 w3-animate-left" style="display:none">
+        <button id="close-nav" class="fa fa-close w3-button w3-right-align w3-right w3-xxlarge"></button>
+        <a href="https://www.thejefftrent.com" class="w3-bar-item w3-button">Home</a>
+        <a href="http://github.com/thejefftrent" class="w3-bar-item w3-button">My Github</a>
+        <a href="/Resume.pdf" class="w3-bar-item w3-button">Resume(PDF)</a>
+        <a href="/aboutme.html" class="w3-bar-item w3-button">About Me</a>
+        <a href="Example Project" class="w3-bar-item w3-button">Example Project</a>
+      </nav>
+
+      <!--
+      Page Contents
+      -->
+      <div class="container">
+        {{ content }}
+      </div>
+      <!--
+      Page Contents
+      -->
+      <footer class="w3-container w3-theme-d4 w3-padding-16 w3-center w3-text-theme">
+        <span>Website is hosted on GitHub using <a href="https://pages.github.com/">GitHub Pages</a></span>
+        <br>
+        <span class="random-footer-text"></span>
+      </footer>
+    </div>
+
+
+
+    <script>
+    //open navigation
+    $(function(){
+      $("#open-nav").click(function() {
+        $("#main").css("margin-left", "20%");
+        $("#nav-bar").css("width", "20%");
+        $("#nav-bar").css("display", "block");
+        $("#open-nav").css("display", "none");
+      });
+    });
+    //close navigation
+    $(function(){
+      $("#close-nav").click(function() {
+        $("#main").css("margin-left", "0%");
+        $("#nav-bar").css("display", "none");
+        $("#open-nav").css("display", "inline-block");
+      });
+    });
+    //random footer text
+    var footerStrings = [
+      "┬─┬ノ( º _ ºノ)",
+      "(╯°□°）╯︵ ┻━┻",
+      "(╯°□°）╯︵ ┻━┻",
+      "¯\\_(ツ)_/¯",
+      "ʕ•ᴥ•ʔ",
+      "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ✧ﾟ･: *ヽ(◕ヮ◕ヽ)",
+      "ლ(ಠ益ಠლ)",
+      "(/) (°,,°) (/)",
+      "(ʘᗩʘ')",
+      "(づ￣ ³￣)づ",
+      "(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜)",
+      "(◕‿◕✿)",
+      "(ᵔᴥᵔ)",
+      "┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴",
+      "(ง ͠° ͟ل͜ ͡°)ง",
+      "ヾ(⌐■_■)ノ♪",
+      "ಠ╭╮ಠ",
+      "♪~ ᕕ(ᐛ)ᕗ",
+      "◉_◉",
+      "(~˘▾˘)~",
+      "\\ (•◡•) /",
+      "You have entered secret debugging mode.",
+      "Please stand-by",
+      "Are you still there?",
+      "More content loading...",
+      "This is a test footer. Please Ignore.",
+      "﴾͡๏̯͡๏﴿ O'RLY?",
+      "Help! I'm trapped in the web!",
+      "The cake is a lie.",
+      "[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]",
+      "Jeff was here!",
+      "report torb pls",
+      "I spent way too much time on making this random",
+      "99 little bugs in the code, 99 little bugs. Take one down, patch it around, 127 little bugs in the code.",
+      "secret text"
+      ];
+    $(function(){
+      $(".random-footer-text").html(footerStrings[Math.floor(Math.random()*footerStrings.length)]);
+    });
+    </script>
+  </body>
+</html>

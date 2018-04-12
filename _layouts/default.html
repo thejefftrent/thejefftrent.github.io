@@ -39,9 +39,10 @@ Here's a train. Choo choo!
         <button id="close-nav" class="fa fa-close w3-button w3-right-align w3-right w3-xxlarge"></button>
         <a href="https://www.thejefftrent.com" class="w3-bar-item w3-button">Home</a>
         <a href="https://github.com/thejefftrent" class="w3-bar-item w3-button">My Github</a>
-        <a href="{{ "/blog"| absolute_url }}" class="w3-bar-item w3-button">Blog</a>
-        <a href="{{ "/about"| absolute_url }}" class="w3-bar-item w3-button">About Me</a>
-        <a href="Example Project" class="w3-bar-item w3-button">Example Project</a>
+        <a href={{ "/blog"| absolute_url }} class="w3-bar-item w3-button">Blog</a>
+        <a href={{ "about.html"| absolute_url }} class="w3-bar-item w3-button">About Me</a>
+        <a href={{ "projects.html"| absolute_url }} class="w3-bar-item w3-button">Example Project</a>
+        <a href={{ "projects.html"| absolute_url }} class="w3-bar-item w3-button">Other Projects</a>
       </nav>
       <!--
       Site and page header

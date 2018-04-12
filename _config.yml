@@ -2,3 +2,5 @@ name: thejefftrent.com
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 url: "https://www.thejefftrent.com"
+plugins:
+  - jekyll-sitemap

@@ -23,13 +23,13 @@ Here's a train. Choo choo!
   <head>
     <title>{{ page.title }}</title>
     <link rel="icon" type="image/png" href={{"favicon.png" | absolute_url }}>
-    <link rel="stylesheet" href={{ "css/w3.css"| absolute_url }}>
-    <link rel="stylesheet" href={{ "css/tjt.css"| absolute_url }}>
+    <link rel="stylesheet" href={{ "/css/w3.css"| absolute_url }}>
+    <link rel="stylesheet" href={{ "/css/tjt.css"| absolute_url }}>
     <link rel="stylesheet" href={{ "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Pacifico" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src={{ "js/tjt.js"| absolute_url }}></script>
+    <script src={{ "/js/tjt.js"| absolute_url }}></script>
   </head>
   <body class="w3-theme-light">
     <!--
@@ -38,9 +38,9 @@ Here's a train. Choo choo!
       <nav id="nav-bar" class="w3-sidebar w3-theme-dark w3-bar-block w3-card-2 w3-animate-left" style="display:none">
         <button id="close-nav" class="fa fa-close w3-button w3-right-align w3-right w3-xxlarge"></button>
         <a href="https://www.thejefftrent.com" class="w3-bar-item w3-button">Home</a>
-        <a href="http://github.com/thejefftrent" class="w3-bar-item w3-button">My Github</a>
-        <a href="https://www.thejefftrent.com/blog" class="w3-bar-item w3-button">Blog</a>
-        <a href="https://www.thejefftrent.com/about" class="w3-bar-item w3-button">About Me</a>
+        <a href="https://github.com/thejefftrent" class="w3-bar-item w3-button">My Github</a>
+        <a href="{{ "/blog"| absolute_url }}" class="w3-bar-item w3-button">Blog</a>
+        <a href="{{ "/about"| absolute_url }}" class="w3-bar-item w3-button">About Me</a>
         <a href="Example Project" class="w3-bar-item w3-button">Example Project</a>
       </nav>
       <!--

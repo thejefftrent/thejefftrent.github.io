@@ -17,13 +17,13 @@ date: 2018-11-12
     Education
 </div>
 <div id="exp" class="w3-container">
-  <ul>
-    {% for exp in site.data.resume.experience %}
-    <li>
-      {{ exp }}
-    </li>
-    {% endfor %}
-  </ul>
+
+  {% for exp in site.data.resume.experience %}
+  <div class="w3-card-4 w3-padding">
+    {{ exp }}
+  </div>
+  {% endfor %}
+
 </div>
 <div id="skill" class="w3-container">
   <ul>

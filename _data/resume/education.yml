@@ -1,7 +1,20 @@
-# education
+# education and certifications
 byu:
   name: Brigham Young University
   location: Provo, UT
   startdate: April 2014
   enddate: April 2018
   study: Information Technology
+mtchs:
+  name: Meridian Technical Charter High School
+  location: Meridian, ID
+  startdate: August 2007
+  enddate: April 2011
+  study: Media Arts/Graphic Design
+certifications:
+  - name: Visual Communication using Adobe Photoshop CS5
+    date: 2011
+  - name: Web Communication using Adobe Dreamweaver CS5
+    date: 2011
+  - name: Rich Media Communication using Adobe Flash CS5
+    date: 2011

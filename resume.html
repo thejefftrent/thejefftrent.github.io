@@ -3,11 +3,52 @@ layout: default
 title: Comprehensive Resume
 date: 2018-11-12
 ---
-
-<ul>
-  {% for w in site.data.resume.work %}
-  <li>
-    {{ w }}
-  </li>
-  {% endfor %}
-</ul>
+<!--https://stackoverflow.com/questions/30963826/get-jekyll-collection-item-name-hru -->
+<div id="nav_exp" class="w3-quarter w3-bar-item w3-theme w3-button">
+    Experience
+</div>
+<div id="nav_skill" class="w3-quarter w3-bar-item w3-theme w3-button">
+    Skills
+</div>
+<div id="nav_work" class="w3-quarter w3-bar-item w3-theme w3-button">
+    Work History
+</div>
+<div id="nav_edu" class="w3-quarter w3-bar-item w3-theme w3-button">
+    Education
+</div>
+<div id="exp" class="w3-container">
+  <ul>
+    {% for exp in site.data.resume.experience %}
+    <li>
+      {{ exp }}
+    </li>
+    {% endfor %}
+  </ul>
+<div>
+<div id="skill" class="w3-container">
+  <ul>
+    {% for skill in site.data.resume.skills %}
+    <li>
+      {{ skill }}
+    </li>
+    {% endfor %}
+  </ul>
+<div>
+<div id="work" class="w3-container">
+  <ul>
+    {% for work in site.data.resume.work %}
+    <li>
+      {{ work }}
+    </li>
+    {% endfor %}
+  </ul>
+<div>
+<div id="edu" class="w3-container">
+  <ul>
+    {% for edu in site.data.resume.education %}
+    <li>
+      {{ edu }}
+    </li>
+    {% endfor %}
+  </ul>
+<div>

@@ -4,16 +4,16 @@ title: Comprehensive Resume
 date: 2018-11-12
 ---
 <!--https://stackoverflow.com/questions/30963826/get-jekyll-collection-item-name-hru -->
-<div id="nav_exp" class="w3-quarter w3-bar-item w3-theme w3-button">
+<div id="nav-exp" class="w3-quarter w3-bar-item w3-theme w3-button">
     Experience
 </div>
-<div id="nav_skill" class="w3-quarter w3-bar-item w3-theme w3-button">
+<div id="nav-skill" class="w3-quarter w3-bar-item w3-theme w3-button">
     Skills
 </div>
-<div id="nav_work" class="w3-quarter w3-bar-item w3-theme w3-button">
+<div id="nav-work" class="w3-quarter w3-bar-item w3-theme w3-button">
     Work History
 </div>
-<div id="nav_edu" class="w3-quarter w3-bar-item w3-theme w3-button">
+<div id="nav-edu" class="w3-quarter w3-bar-item w3-theme w3-button">
     Education
 </div>
 <div id="exp" class="w3-container">
@@ -52,3 +52,32 @@ date: 2018-11-12
     {% endfor %}
   </ul>
 </div>
+
+<script type="text/javascript">
+  function tab(id) {
+    $("#exp").addClass("w3-hide");
+    $().addClass("w3-theme");
+    $().removeClass("w3-theme-l3");
+
+    $("#skill").addClass("w3-hide");
+    $().addClass("w3-theme");
+    $().removeClass("w3-theme-l3");
+
+    $("#work").addClass("w3-hide");
+    $().addClass("w3-theme");
+    $().removeClass("w3-theme-l3");
+
+    $("#edu").addClass("w3-hide");
+    $().addClass("w3-theme");
+    $().removeClass("w3-theme-l3");
+
+    $("#" + id).removeClass("w3-hide");
+    $("#nav-" + id).addClass("w3-theme-l3")
+    $("#nav-" + id).removeClass("w3-theme")
+  }
+  $(document).ready(function(){
+    tab("exp");
+
+
+  });
+</script>

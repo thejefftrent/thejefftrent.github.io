@@ -18,15 +18,11 @@ date: 2018-11-12
 </div>
 <div id="exp" class="w3-container w3-row-padding">
 
-  {% for exp in site.data.resume.experience %}
+  {% for exp in site.data.resume.experience.Development %}
   <div class="w3-card-4 w3-col w3-theme w3-margin">
 
     {{ exp }}
-    {% for item in exp %}
-      <p>
-        {{ item }}
-      </p>
-    {% endfor %}
+
   </div>
   {% endfor %}
 

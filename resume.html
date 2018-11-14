@@ -20,7 +20,13 @@ date: 2018-11-12
 
   {% for exp in site.data.resume.experience %}
   <div class="w3-card-4 w3-col w3-theme w3-margin">
+
     {{ exp }}
+    {% for item in exp %}
+      <p>
+        {{ item }}
+      </p>
+    {% endfor %}
   </div>
   {% endfor %}
 

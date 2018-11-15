@@ -74,13 +74,23 @@ date: 2018-11-12
 
 </div>
 <div id="edu" class="w3-container w3-row-padding">
-  <ul>
+
     {% for edu in site.data.resume.education %}
-    <li>
-      {{ edu }}
-    </li>
+    <div class="w3-card-4 w3-col w3-theme w3-margin w3-cell" style="max-width:22%">
+      {% if edu[0] == 'certifications' %}
+        {% for cert in edu %}
+          <li>{{ cert }}</li>
+        {% endif %}
+      {% else %}
+      <ul class="w3-ul">
+        <li>
+          {{ edu }} / {{ edu.name }} / {{ edu[1].name }}
+        </li>
+      </ul>
+      {% endif %}
+    </div>
     {% endfor %}
-  </ul>
+
 </div>
 
 <script type="text/javascript">
@@ -106,7 +116,7 @@ date: 2018-11-12
     $("#nav-" + id).removeClass("w3-theme")
   }
   $(document).ready(function(){
-    tab("work");
+    tab("edu");
     $("#nav-exp").click(function(){tab("exp");});
     $("#nav-skill").click(function(){tab("skill");});
     $("#nav-work").click(function(){tab("work");});

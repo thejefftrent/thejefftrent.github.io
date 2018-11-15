@@ -25,9 +25,9 @@ date: 2018-11-12
     <h3> {{ exp[0] }} </h3>
     <ul class="w3-ul">
     {% for item in exp[1] %}
-      <ul class="w3-padding-small">
+      <li class="w3-padding-small">
         {{ item }}
-      </ul>
+      </li>
     {% endfor %}
     </ul>
   </div>
@@ -41,9 +41,9 @@ date: 2018-11-12
     <h3> {{ skill[0] }} </h3>
     <ul class="w3-ul">
     {% for item in skill[1] %}
-      <ul class="w3-padding-small">
+      <li class="w3-padding-small">
         {{ item }}
-      </ul>
+      </li>
     {% endfor %}
     </ul>
   </div>
@@ -55,12 +55,10 @@ date: 2018-11-12
 
   {% for work in site.data.resume.work %}
   <div class="w3-card-4 w3-col w3-theme w3-margin w3-cell" style="max-width:22%">
+    <h3>
+    {{ item[0][1] }}
+    </h3>
     <ul class="w3-ul">
-    {% for item in work %}
-      <ul class="w3-padding-small">
-        {{ item[0] }} {{ item[1] }}
-      </ul>
-    {% endfor %}
     </ul>
   </div>
   {% endfor %}

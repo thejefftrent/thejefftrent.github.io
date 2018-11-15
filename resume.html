@@ -16,10 +16,12 @@ date: 2018-11-12
 <div id="nav-edu" class="w3-quarter w3-bar-item w3-theme w3-button">
     Education
 </div>
+
+
 <div id="exp" class="w3-container w3-row-padding">
 
   {% for exp in site.data.resume.experience %}
-  <div class="w3-card-4 w3-col w3-theme w3-margin">
+  <div class="w3-card-4 w3-quarter w3-theme w3-margin">
     {{ exp[0] }}
     {% for item in exp[1] %}
       <p>

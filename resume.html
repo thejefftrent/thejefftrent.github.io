@@ -79,9 +79,11 @@ date: 2018-11-12
     <div class="w3-card-4 w3-col w3-theme w3-margin w3-cell" style="max-width:22%">
       {% if edu[0] == 'certifications' %}
       <h3>Certifications</h3>
+      <ul class="w3-ul">
         {% for cert in edu[1] %}
           <li>{{ cert.name }} // {{ cert.date }}</li>
         {% endfor %}
+      </ul>
       {% else %}
 
         <h3>

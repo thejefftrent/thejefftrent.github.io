@@ -78,13 +78,24 @@ date: 2018-11-12
     {% for edu in site.data.resume.education %}
     <div class="w3-card-4 w3-col w3-theme w3-margin w3-cell" style="max-width:22%">
       {% if edu[0] == 'certifications' %}
-        {% for cert in edu %}
-          <li>{{ cert }}</li>
+      <h3>Certifications</h3>
+        {% for cert in edu[1] %}
+          <li>{{ cert.name }} // {{ cert.date }}</li>
         {% endfor %}
       {% else %}
+
+        <h3>
+          {{ edu[1].name }}
+        </h3>
       <ul class="w3-ul">
         <li>
-          {{ edu }} / {{ edu.name }} / {{ edu[1].name }}
+          {{ edu[1].study }}
+        </li>
+        <li>
+          {{ edu[1].location }}
+        </li>
+        <li>
+          {{ edu[1].startdate }}&ndash;{{ edu[1].enddate }}
         </li>
       </ul>
       {% endif %}

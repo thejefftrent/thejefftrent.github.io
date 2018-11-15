@@ -59,6 +59,15 @@ date: 2018-11-12
     {{ work.employer }}
     </h3>
     <ul class="w3-ul">
+      <li>
+        {{ work.jobtitle }}
+      </li>
+      <li>
+        {{ work.location }}
+      </li>
+      <li>
+        {{ work.startdate }}&ndash;{{ work.enddate }}
+      </li>
     </ul>
   </div>
   {% endfor %}

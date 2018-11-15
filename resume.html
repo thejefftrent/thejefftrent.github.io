@@ -52,13 +52,19 @@ date: 2018-11-12
 </div>
 
 <div id="work" class="w3-container w3-row-padding">
-  <ul>
-    {% for work in site.data.resume.work %}
-    <li>
-      {{ work }}
-    </li>
+
+  {% for work in site.data.resume.work %}
+  <div class="w3-card-4 w3-col w3-theme w3-margin w3-cell" style="max-width:22%">
+    <ul class="w3-ul">
+    {% for item in work %}
+      <ul class="w3-padding-small">
+        {{ item.employer }}
+      </ul>
     {% endfor %}
-  </ul>
+    </ul>
+  </div>
+  {% endfor %}
+
 </div>
 <div id="edu" class="w3-container w3-row-padding">
   <ul>

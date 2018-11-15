@@ -35,14 +35,22 @@ date: 2018-11-12
 
 </div>
 <div id="skill" class="w3-container">
-  <ul>
-    {% for skill in site.data.resume.skills %}
-    <li>
-      {{ skill }}
-    </li>
+
+  {% for skill in site.data.resume.skills %}
+  <div class="w3-card-4 w3-col w3-theme w3-margin w3-cell" style="max-width:22%">
+    <h3> {{ skill[0] }} </h3>
+    <ul class="w3-ul">
+    {% for item in skill[1] %}
+      <ul class="w3-padding-small">
+        {{ item }}
+      </ul>
     {% endfor %}
-  </ul>
+    </ul>
+  </div>
+  {% endfor %}
+
 </div>
+
 <div id="work" class="w3-container">
   <ul>
     {% for work in site.data.resume.work %}

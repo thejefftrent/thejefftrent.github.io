@@ -58,7 +58,7 @@ date: 2018-11-12
     <ul class="w3-ul">
     {% for item in work %}
       <ul class="w3-padding-small">
-        {{ item.employer }}
+        {{ item }}
       </ul>
     {% endfor %}
     </ul>
@@ -99,7 +99,7 @@ date: 2018-11-12
     $("#nav-" + id).removeClass("w3-theme")
   }
   $(document).ready(function(){
-    tab("exp");
+    tab("work");
     $("#nav-exp").click(function(){tab("exp");});
     $("#nav-skill").click(function(){tab("skill");});
     $("#nav-work").click(function(){tab("work");});

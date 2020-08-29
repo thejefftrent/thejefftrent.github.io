@@ -1,9 +1,22 @@
 #Full sentences // need to make sentences more generic.. since skills page will have list of specifics
+Project Management:
+  - Created, managed, and assigned tickets through project management software (e.g. JIRA, Kanban Boards, issue trackers).
+  - Lead development for major projects working with other developers including contractors.
+  - Managed and version controlled with Git via local, self-hosted remote, and GitHub.
+  - Built applications to Windows, macOS, Linux,  iOS, and Android.
+  - Wrote hundreds of technical articles for knowledge bases, wikis, and documentation to be read by other staff, clients, and customers.
 Development:
-  - Created and implemented full web stack and webpages(.NET, Apache2, PHP MySQL, with HTML5 & NodeJS).
-  - Used command line, terminal and PowerShell, and created many batch scripts.
-  - Worked with C, C++, C#/.Net/ASP, Python, Javascript, HTML, CSS,  PHP, and SQL.
-  - Used Git on personal and school projects.
+  - Developed business application with Unity3D and C#.
+  - Built website frontends with HTML, CSS, Javascript, Bootstrap, Angular, and Flutter.
+  - Used Docker to create containerized web servers with Nginx, Apache, Node.js, and MySQL.
+  - Built bots for Discord and Reddit using Python and APIs.
+  - Designed and developed games with Godot(GDScript), Unity3D(C#), and Pico8.
+Systems Administration:
+  - Bought, set-up, and managed domains with DNS, e-mail, and webpages.
+  - Setup and managed 20+ Linux and Windows servers both bare-metal and virtual.
+  - Managed Active Directory and Group Policy for over 100 users, 200 computers and servers.
+  - Created and deployed software packages to 100s of computers through SCCM and Filewave.
+  - Provided technical support for clients and staff in small business.
 Communication:
   - Written 100+ of pages of technical documentation for different procedures and methods.
   - Worked with hardware and software vendors to meet our organization’s needs.

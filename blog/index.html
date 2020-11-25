@@ -1,12 +1,16 @@
 ---
 layout: default
-title: Jeff's Rants
+title: Jeff's Notes
+date: 2020-11-25
 ---
 <article class="w3-container w3-theme">
-	<ul class="posts">
+	<ul class="w3-ul w3-hoverable posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li class="w3-padding-small">
+			<span class="w3-large"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br>
+			<span class="w3-small">{{ post.date | date_to_string }}</span>
+		</li>
 	  {% endfor %}
 	</ul>
 </article>

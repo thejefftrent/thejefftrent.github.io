@@ -26,7 +26,7 @@ title: ${postname}
 date: ${now}
 tags: ${tags}
 ---
-
-You write here"
+"
 #echo $frontmatter
 echo "$frontmatter" > "$filepath"
+cat ./newpost.md >> "$filepath"

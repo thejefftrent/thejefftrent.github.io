@@ -6,3 +6,5 @@ plugins:
   - jekyll-sitemap
 kramdown:
   enable_coderay: true
+  coderay_line_numbers: true
+  coderay_default_lang: javascript

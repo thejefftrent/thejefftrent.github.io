@@ -4,3 +4,7 @@ permalink: /blog/:year/:month/:day/:title
 url: "https://www.thejefftrent.com"
 plugins:
   - jekyll-sitemap
+kramdown:
+  enable_coderay: true
+  coderay_line_numbers: true
+  coderay_default_lang: javascript

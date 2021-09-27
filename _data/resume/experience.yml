@@ -3,14 +3,15 @@ Project Management:
   - Created, managed, and assigned tickets through project management software (e.g. JIRA, Kanban Boards, issue trackers).
   - Lead development for major projects working with other developers including contractors.
   - Managed and version controlled with Git via local, self-hosted remote, and GitHub.
-  - Built applications to Windows, macOS, Linux,  iOS, and Android.
+  - Built applications to Windows, macOS, Linux, iOS, and Android.
   - Wrote hundreds of technical articles for knowledge bases, wikis, and documentation to be read by other staff, clients, and customers.
 Development:
+  - Worked on Modern C++ Embedded Firmware Project with over 500 other Engineers.
   - Developed business application with Unity3D and C#.
-  - Built website frontends with HTML, CSS, Javascript, Bootstrap, Angular, and Flutter.
+  - Built website front-ends with HTML, CSS, Javascript, Angular(TypeScript), and Flutter(Dart).
   - Used Docker to create containerized web servers with Nginx, Apache, Node.js, and MySQL.
   - Built bots for Discord and Reddit using Python and APIs.
-  - Designed and developed games with Godot(GDScript), Unity3D(C#), and Pico8.
+  - Designed and developed games with Godot(GDScript), Unity3D(C#), and other engines.
 Systems Administration:
   - Bought, set-up, and managed domains with DNS, e-mail, and webpages.
   - Setup and managed 20+ Linux and Windows servers both bare-metal and virtual.

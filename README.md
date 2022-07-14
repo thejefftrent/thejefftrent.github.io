@@ -1,4 +1,4 @@
-# thejefftrent.github.io (a.k.a. thejefftrent.com)
+# thejefftrent.github.io (a.k.a. [thejefftrent.com](www.thejefftrent.com))
 
 Website is made by me(Jeff Trent) hosted on GitHub Pages and uses Jekyll.
 

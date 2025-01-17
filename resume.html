@@ -21,6 +21,7 @@ date: 2018-11-15
 <div id="exp" class="w3-container w3-row-padding">
 
   {% for exp in site.data.resume.experience %}
+  {% if exp.visible != false %}
   <div class="w3-card-4 w3-col w3-theme w3-margin w3-cell" style="max-width:22%">
     <h3> {{ exp[0] }} </h3>
     <ul class="w3-ul">
@@ -31,6 +32,7 @@ date: 2018-11-15
     {% endfor %}
     </ul>
   </div>
+  {% endif %}
   {% endfor %}
 
 </div>

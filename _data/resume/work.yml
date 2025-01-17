@@ -1,36 +1,102 @@
 # work history
 - employer: In Time Tec
+  jobtitle: Solutions Architect
+  location: Meridian, ID
+  startdate: November 2024
+  enddate: Current
+
+- employer: Fresh Realm (contractor via In Time Tec)
+  jobtitle: Software Engineer
+  location: Meridian, ID
+  startdate: January 2025
+  enddate: Current
+
+- employer: HP (contractor via In Time Tec)
+  jobtitle: Product Owner
+  location: Meridian, ID
+  startdate: October 2023
+  enddate: Current
+
+- employer: In Time Tec
+  jobtitle: Engineering Manager
+  location: Meridian, ID
+  startdate: January 2024
+  enddate: Current
+
+- employer: Mimo Monitors (contractor via In Time Tec)
+  jobtitle: Firmware Engineer
+  location: Meridian, ID
+  startdate: March 2024
+  enddate: July 2024
+
+- employer: In Time Tec
+  jobtitle: Software Architect
+  location: Meridian, ID
+  startdate: October 2022
+  enddate: December 2023
+
+- employer: In Time Tec
   jobtitle: Software Engineer
   location: Meridian, ID
   startdate: May 2021
-  enddate: Current
+  enddate: October 2022
+
+- employer: MPR (contractor via In Time Tec)
+  jobtitle: Solutions Architect
+  location: Meridian, ID
+  startdate: March 2024
+  enddate: July 2024
+
+- employer: Sekady (contractor via In Time Tec)
+  jobtitle: Software Engineer
+  location: Meridian, ID
+  startdate: March 2024
+  enddate: July 2024
+
+- employer: HP (contractor via In Time Tec)
+  jobtitle: Firmware Engineer
+  location: Meridian, ID
+  startdate: March 2024
+  enddate: July 2024
 
 - employer: Snowcapp Technology
   jobtitle: Freelance
   location: Meridian, ID
   startdate: October 2020
   enddate: Current
+  visible: false
+
+- employer: Miridia Technology
+  jobtitle: Unity3D Developer / IT Systems Analyst
+  location: Meridian, ID
+  startdate: December 2018
+  enddate: October 2020
+  visible: false
 
 - employer: Miridia Technology
   jobtitle: Unity3D Developer
   location: Meridian, ID
   startdate: May 2019
   enddate: October 2020
+  visible: false
 
 - employer: Miridia Technology
   jobtitle: IT Systems Analyst
   location: Meridian, ID
   startdate: December 2018
   enddate: May 2019
+  visible: false
 
 - employer: Provo City School District
   jobtitle: Technical Support
   location: Provo, UT
   startdate: May 2018
   enddate: October 2018
+  visible: false
 
 - employer: BYU Print and Mail
   jobtitle: Student CSR(Systems Administrator)
   location: Provo, UT
   startdate: October 2015
   enddate: November 2017
+  visible: false

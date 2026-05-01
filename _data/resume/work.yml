@@ -3,25 +3,25 @@
   jobtitle: Solutions Architect
   location: Meridian, ID
   startdate: November 2024
-  enddate: Current
+  enddate: April 2026
 
 - employer: Fresh Realm (contractor via In Time Tec)
   jobtitle: Software Engineer
   location: Meridian, ID
   startdate: January 2025
-  enddate: Current
+  enddate: October 2025
 
 - employer: HP (contractor via In Time Tec)
   jobtitle: Product Owner
   location: Meridian, ID
   startdate: October 2023
-  enddate: Current
+  enddate: April 2026
 
 - employer: In Time Tec
   jobtitle: Engineering Manager
   location: Meridian, ID
   startdate: January 2024
-  enddate: Current
+  enddate: December 2025
 
 - employer: Mimo Monitors (contractor via In Time Tec)
   jobtitle: Firmware Engineer
@@ -71,7 +71,6 @@
   location: Meridian, ID
   startdate: December 2018
   enddate: October 2020
-  visible: false
 
 - employer: Miridia Technology
   jobtitle: Unity3D Developer
@@ -92,11 +91,9 @@
   location: Provo, UT
   startdate: May 2018
   enddate: October 2018
-  visible: false
 
 - employer: BYU Print and Mail
   jobtitle: Student CSR(Systems Administrator)
   location: Provo, UT
   startdate: October 2015
   enddate: November 2017
-  visible: false

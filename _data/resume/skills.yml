@@ -1,5 +1,13 @@
 #List of skills under a category
 Development:
+  - Embedded C/C++
+  - Remote Development
+  - Agentic AI Development
+  - Github Actions
+  - CI/CD
+  - DevOps
+  - Full-Stack Web
+  - Embedded Linux
   - Apache2
   - PHP
   - MySQL
@@ -11,11 +19,19 @@ Development:
   - Node.js
   - JIRA
   - Kanban
+  - Scrum
+  - LEAN
 Programming:
   - C
   - C++
   - C#/.NET/ASP
+  - Ruby on Rails
   - Python
+  - React
+  - Vue.js
+  - MongoDB
+  - Node/Express
+  - PostgreSQL
   - Javascript ES6
   - HTML
   - CSS
@@ -45,16 +61,17 @@ Systems Management:
 Operating Systems:
   - MacOS
   - Windows
-  - Linux Ubuntu
+  - Linux (Fedora/RHEL, Ubuntu/Debian, Embedded)
   - Android
   - iOS
 Technical Skills:
+  - NeoVim
+  - JetBrains
+  - Agentic AI Development
   - Photoshop
   - GIMP
   - Illustrator
   - InkScape
   - Blender
-  - Video Editing
-  - Sound Editing
   - Graphic Design
-  - User Experience
+  - UX/UI
